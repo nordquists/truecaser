@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad48c39f-1317-453e-953b-6e2bc08a366c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giga_directories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/giga_directories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigaword_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigaword_parse.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,13 +31,13 @@
           <entry key="model" value="1" />
           <entry key="py" value="14" />
           <entry key="pyx" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Cython" value="1" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="14" />
         </counts>
       </usages-collector>
@@ -44,14 +45,14 @@
         <counts>
           <entry key="gitignore" value="8" />
           <entry key="main" value="10" />
-          <entry key="py" value="7184" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="7185" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="7194" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Python" value="7195" />
         </counts>
       </usages-collector>
     </session>
@@ -96,24 +97,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gigaword_parse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="133">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
-                <marker date="1605978780823" expanded="true" signature="400:405" ph="..." />
-                <marker date="1605978780823" expanded="true" signature="488:497" ph="..." />
-                <marker date="1605978780823" expanded="true" signature="868:914" ph="..." />
-                <marker date="1605978780823" expanded="true" signature="1157:1823" ph="..." />
-                <marker date="1605978780823" expanded="true" signature="1838:1847" ph="..." />
+                <marker date="1605986511020" expanded="true" signature="400:405" ph="..." />
+                <marker date="1605986511020" expanded="true" signature="520:529" ph="..." />
+                <marker date="1605986511020" expanded="true" signature="900:946" ph="..." />
+                <marker date="1605986511020" expanded="true" signature="1189:1855" ph="..." />
+                <marker date="1605986511020" expanded="true" signature="1870:1879" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/giga_directories.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="725">
+              <caret line="289" column="25" lean-forward="true" selection-start-line="289" selection-start-column="25" selection-end-line="289" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -181,15 +182,15 @@
         <option value="$PROJECT_DIR$/baselines/baseline1.py" />
         <option value="$PROJECT_DIR$/baselines/baseline2.py" />
         <option value="$PROJECT_DIR$/gigaword_parser.py" />
-        <option value="$PROJECT_DIR$/giga_directories.txt" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/twitter_parse.py" />
-        <option value="$PROJECT_DIR$/gigaword_parse.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/parse.py" />
         <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/hmm.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gigaword_parse.py" />
+        <option value="$PROJECT_DIR$/giga_directories.txt" />
       </list>
     </option>
   </component>
@@ -345,13 +346,6 @@
     <entry file="file://$PROJECT_DIR$/oov.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/giga_directories.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="293" column="17" selection-start-line="293" selection-start-column="17" selection-end-line="293" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -429,24 +423,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gigaword_parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="133">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
-            <marker date="1605978780823" expanded="true" signature="400:405" ph="..." />
-            <marker date="1605978780823" expanded="true" signature="488:497" ph="..." />
-            <marker date="1605978780823" expanded="true" signature="868:914" ph="..." />
-            <marker date="1605978780823" expanded="true" signature="1157:1823" ph="..." />
-            <marker date="1605978780823" expanded="true" signature="1838:1847" ph="..." />
+            <marker date="1605986511020" expanded="true" signature="400:405" ph="..." />
+            <marker date="1605986511020" expanded="true" signature="520:529" ph="..." />
+            <marker date="1605986511020" expanded="true" signature="900:946" ph="..." />
+            <marker date="1605986511020" expanded="true" signature="1189:1855" ph="..." />
+            <marker date="1605986511020" expanded="true" signature="1870:1879" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/giga_directories.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="725">
+          <caret line="289" column="25" lean-forward="true" selection-start-line="289" selection-start-column="25" selection-end-line="289" selection-end-column="25" />
         </state>
       </provider>
     </entry>
