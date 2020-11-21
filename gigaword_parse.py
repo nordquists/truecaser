@@ -43,21 +43,24 @@ class GigawordParser:
         sentences = []
         is_sentence = False
         current_sentence = ""
-        with gzip.open(self.base_dir + file, 'r') as file:
-            for line in file:
-                line = line.decode('utf-8')
-                line = line.replace('\n', ' ')
-                if "<P>" in line:
-                    is_sentence = True
-                    current_sentence = ""
-                elif "</P>" in line:
-                    is_sentence = False
-                    sentences.append(str(current_sentence))
-                    current_sentence = ""
-                elif is_sentence:
-                    current_sentence += line
+        try:
+            with gzip.open(self.base_dir + file, 'r') as file:
+                for line in file:
+                    line = line.decode('utf-8')
+                    line = line.replace('\n', ' ')
+                    if "<P>" in line:
+                        is_sentence = True
+                        current_sentence = ""
+                    elif "</P>" in line:
+                        is_sentence = False
+                        sentences.append(str(current_sentence))
+                        current_sentence = ""
+                    elif is_sentence:
+                        current_sentence += line
 
-        return sentences
+            return sentences
+        except:
+            return []
 
     def next(self):
         # If we don't have a current_file yet or we are out of bounds, we read the next file.
