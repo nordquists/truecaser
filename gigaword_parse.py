@@ -13,7 +13,7 @@ import gzip
 
 
 class GigawordParser:
-    def __init__(self, input_file="giga_directories.txt", base_dir="../../misc/proteus1/data/EnglishGigaWordCorpus/data/"):
+    def __init__(self, input_file="giga_directories.txt", base_dir="../../../misc/proteus1/data/EnglishGigaWordCorpus/data/"):
         # Note: input file is a txt with all the gzips we are interested in
 
         self.base_dir = base_dir
