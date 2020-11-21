@@ -60,6 +60,7 @@ class GigawordParser:
 
             return sentences
         except:
+            print(f"ERROR: Could not find {file}")
             return []
 
     def next(self):
